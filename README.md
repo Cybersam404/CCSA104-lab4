@@ -34,7 +34,7 @@ Using SmartConsole R82 connected to the Security Management Server (A-SMS), I bu
 | 6 | SMTP Out | Mail_Server | Any | smtp | Accept | Log |
 | 7 | Cleanup Rule | Any | Any | Any | Drop | Log |
 
-## Limitations (stated honestly)
+## Limitations
 
 - **Tasks 3 and 5 and test T4 are not in the assignment brief I received**, so they were not done. The brief's rule 4 (Internal to DMZ) comes from Task 5, so it was not built.
 - **The gateways were not running.** A-GW-Cluster, A-GW-01, A-GW-02 and the log server A-SME showed a red status; only A-SMS was running. All changes were made and published on A-SMS, but every Install Policy attempt in Task 7 failed, so I could not run the traffic test or read gateway logs. The failed install attempts are shown in the report.
